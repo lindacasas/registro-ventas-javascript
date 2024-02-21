@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes Latinos</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">PERFUMES LATINOS</h1>
+    <section class="general-container">
+        <h2 class="exercise-title">Registro de ventas</h2>
+        <article class="container-employee">
+            <div class="container-Juana">
+                <div class="form-group">
+                    <label for="juana-aqua">Juana - Aqua:</label>
+                    <input type="number" id="juana-aqua" class="input" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="juana-emocion">Juana - Emoción:</label>
+                    <input type="number" id="juana-emocion" class="input" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="juana-alegria">Juana - Alegría:</label>
+                    <input type="number" id="juana-alegria" class="input" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="juana-frescura">Juana - Frescura:</label>
+                    <input type="number" id="juana-frescura" class="input" min="0">
+                </div>
+            </div>
+
+            <div class="container-pedro">
+                <div class="form-group">
+                    <label for="pedro-aqua">Pedro - Aqua:</label>
+                    <input type="number" id="pedro-aqua" class="input" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="pedro-emocion">Pedro - Emoción:</label>
+                    <input type="number" id="pedro-emocion" class="input" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="pedro-alegria">Pedro - Alegría:</label>
+                    <input type="number" id="pedro-alegria" class="input" min="0">
+                </div>
+                <div class="form-group">
+                    <label for="pedro-frescura">Pedro - Frescura:</label>
+                    <input type="number" id="pedro-frescura" class="input" min="0">
+                </div>
+            </div>
+        </article>
+
+        <article class="container-action">
+                <button class="btn-form" onclick="register()">Registrar</button><br>
+                <button class="btn-form" onclick="employeeOfMonth()">Ver empleado del mes</button>
+        </article>
+
+        <article class="container-result">
+            <div class="results" id="results"></div>
+        </article>
+    </section>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #345995;
+}
+.title, .exercise-title {
+    text-align: center;
+    color: #ffffff;
+}
+.general-container{
+    color: #ffffff;
+}
+.container-employee{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-Juana, .container-pedro{
+    max-width: 400px;
+    margin: 0 2rem 1.2rem 2rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px 35px 20px 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+.container-action{
+    text-align: center;
+}
+.btn-form{
+    padding: 8px 12px;
+    background-color: #007bffe5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+.btn-form:hover {
+    background-color: #0d6dfddc;
+}
+.btn-form:focus, input:focus {
+    outline: none;
+}
+.container-result {
+    max-width: 400px;
+    margin: 1.2rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #375688;
+    display: none;
+}
+.results {
+    margin-top: 20px;
+}

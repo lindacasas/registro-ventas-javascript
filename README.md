@@ -38,4 +38,4 @@ Linda Melissa Casas Huanca
 ## URL
 
 - GitHub: https://github.com/lindacasas/registro-ventas-javascript
-- GitHub Pages:
+- GitHub Pages: https://lindacasas.github.io/registro-ventas-javascript/
